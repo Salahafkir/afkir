@@ -1,0 +1,5 @@
+# Yersinia Cheat Sheet
+
+## Basic Commands
+- Launch GUI: `yersinia -G`
+- Attack specific network protocol (e.g., STP): `yersinia -G` (follow GUI instructions)
