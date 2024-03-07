@@ -1,0 +1,10 @@
+# Gobuster Cheat Sheet
+
+## Installation
+```bash
+sudo apt-get install gobuster
+```
+
+## Basic Commands
+- Directory search: `gobuster dir -u http://example.com -w wordlist.txt`
+- Subdomain search: `gobuster dns -d example.com -w wordlist.txt`
