@@ -1,0 +1,9 @@
+# Nikto Cheat Sheet
+
+## Installation
+```bash
+sudo apt-get install nikto
+```
+
+## Basic Commands
+- Web server scan: `nikto -h http://example.com`
