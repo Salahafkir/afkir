@@ -1,0 +1,9 @@
+# Impacket Cheat Sheet
+
+## Installation
+```bash
+pip install impacket
+```
+
+## Basic Commands
+- Use `smbclient.py`: `smbclient.py username:password@example.com`
