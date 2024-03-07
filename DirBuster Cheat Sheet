@@ -1,0 +1,9 @@
+# DirBuster Cheat Sheet
+
+## Installation
+```bash
+sudo apt-get install dirbuster
+```
+
+## Basic Commands
+- Launch GUI: `dirbuster`
